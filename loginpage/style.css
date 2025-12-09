@@ -1,0 +1,193 @@
+body{
+    padding: none;
+    margin: none;
+    background-image: url("/loginpage/dark keyboard.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100vh;
+}
+
+.my-Form{
+    width: 100%;
+    max-width:600px;
+    min-height: 80vh;
+    background: transparent;
+    backdrop-filter: blur(80px);
+    margin: 130px auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding: 12px 24px 12px 12px;
+    box-sizing: border-box;
+}
+.my-Form h1{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: "Playwrite NO", cursive;
+     font-optical-sizing: auto;
+  font-style: normal;
+    color: #fff;
+   
+
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.email{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.password{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.age{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+.name input{
+    padding: 12px 24px 12px 12px;
+    width: 300px;
+    outline: none;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-left: 10%;
+}
+.name label{
+    padding-left: 2%;
+}
+.email input{
+    padding: 12px 24px 12px 12px;
+    width: 300px;
+    outline: none;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-left: 10%;
+}
+.email label{
+    padding-left: 2%;
+}
+.password input{
+    padding: 12px 24px 12px 12px;
+    width: 300px;
+    outline: none;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-left: 7%;
+}
+.password label{
+    padding-left: 1%;
+}
+
+.age input{
+    padding: 12px 24px 12px 12px;
+    width: 300px;
+    outline: none;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-left: 12%;
+}
+.age label{
+    padding-left: 2%;
+}
+.flexme{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.flexme, .terms a{
+    text-decoration: none;
+    color: #fff;
+}
+.flexme, .gender{
+    color: #fff;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-bottom: none;
+}
+select{
+    min-width: 200px;
+    text-align: center;
+    outline: none;
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 4px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+   color: #fff;
+    font-size: 1rem;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 40%;
+    height: 70%;
+    background-color: #000000;
+    padding: 2%;
+    outline: none;
+    margin-top: 4px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    margin-top: 4px;
+}
+button:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    transition: 2s;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+option{
+   background: #000;
+}
+
