@@ -1,7 +1,7 @@
 body{
     padding: none;
     margin: none;
-    background-image: url("/loginpage/dark keyboard.jpg");
+    background: linear-gradient(144deg, #570357, #8f0000 );
      background-repeat: no-repeat;
      background-size: cover;
      min-height: 100vh;
