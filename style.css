@@ -60,7 +60,7 @@ body{
 
 .name input{
     padding: 12px 24px 12px 12px;
-    width: 300px;
+    width: 50%;
     outline: none;
     border: 2px solid #fff;
     background: none;
@@ -75,7 +75,7 @@ body{
 }
 .email input{
     padding: 12px 24px 12px 12px;
-    width: 300px;
+    width: 50%;
     outline: none;
     border: 2px solid #fff;
     background: none;
@@ -90,7 +90,7 @@ body{
 }
 .password input{
     padding: 12px 24px 12px 12px;
-    width: 300px;
+    width: 50%;
     outline: none;
     border: 2px solid #fff;
     background: none;
@@ -106,7 +106,7 @@ body{
 
 .age input{
     padding: 12px 24px 12px 12px;
-    width: 300px;
+    width:50% ;
     outline: none;
     border: 2px solid #fff;
     background: none;
